@@ -11,7 +11,7 @@
     <name>Kev :: Sample :: ProducerConsumer</name>
 
     <properties>
-        <kevoree.version>5.2.1</kevoree.version>
+        <kevoree.version>5.2.5</kevoree.version>
     </properties>
 
     <dependencies>

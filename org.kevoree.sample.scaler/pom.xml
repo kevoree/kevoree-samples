@@ -11,7 +11,7 @@
     <name>Kev :: Sample :: Scaler</name>
 
     <properties>
-        <kevoree.version>5.2.1</kevoree.version>
+        <kevoree.version>5.2.5</kevoree.version>
     </properties>
 
     <dependencies>
@@ -56,14 +56,14 @@
                     <model>src/main/kevs/main.kevs</model>
                 </configuration>
             </plugin>
-   	<plugin>
-                 <groupId>org.apache.maven.plugins</groupId>
-                 <artifactId>maven-compiler-plugin</artifactId>
-                 <configuration>
-                     <source>1.5</source>
-                     <target>1.5</target>
-                 </configuration>
-              </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.5</source>
+                    <target>1.5</target>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
